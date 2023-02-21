@@ -1,0 +1,79 @@
+* {
+    font-family: "PressStart2P-vaV";
+    
+}
+
+/**Customizing Font-family**/
+@font-face {
+    font-family: 'PressStart2p-vaV';
+    src: url(PressStart2P-vaV7.ttf);
+}
+
+
+body {
+    display: flex;
+    background-color: gray;
+}
+
+/*******Left-SideBar********/
+.Left-sidebar {
+    width: 20%;
+    height: 500px;
+    background: orange; 
+    float: left;
+}
+
+/********* Center Bar ***********/
+.Center-bar {
+    width: 50%;
+    height: 500px;
+    background-color: green;
+   
+}
+
+/********* Right-SideBar ***********/
+.Right-sidebar {
+    width: 20%;
+    height: 500px;
+    background-color: skyblue;
+    float: right;  
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 20pt;   
+}
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid;
+    margin-top: 5%;       
+}
+div:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/***********Media Queries: Mobile Responsive ************/
+@media screen and (max-width: 655px) {
+    body {
+        background-color: blue; 
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    .Left-sidebar {
+        display: none;       
+    }
+    .Right-sidebar {
+        display: none;    
+    }
+    .Center-bar {
+        width: 100%;
+        background-color: chartreuse;
+    }
+}
+
+
