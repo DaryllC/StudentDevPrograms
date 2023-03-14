@@ -1,0 +1,68 @@
+body {
+    background-image: url(Starbucks-Virtual-Backgrounds-Community-Store-in-Jonesboro-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+    margin: 0;
+    padding: 0;
+}
+
+/***Logo****/
+img {
+    height: 100px;
+    width: auto;   
+}
+/***Main-content****/
+.landing-main-content {
+    padding: 130px;
+    height: auto;
+    
+    
+}
+/***Menu-wrapper**/
+.landing-menuWrapper {
+    margin-top: -60px;
+    background-color: rgba(255, 255, 255, 0.930);
+    height: auto;
+    width: 33%; 
+    padding-top: 50px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    
+}
+/***Menu icon button****/
+.landing-menu-icon-button {
+    height: 90px;
+    padding: 20px;
+    width: 160px;
+    border-radius: 20px;
+    margin: 6px;
+    cursor: pointer;
+}
+.landing-menu-icon-button span {
+    font-size: 40px;
+}
+.landing-menu-icon-button:hover {
+    background-color: rgb(4, 52, 4);
+    opacity: 0.9;
+    color: white;
+    border-style: 3px solid;
+    transform: rotate(10deg);
+}
+.landing-menu-icon-button:active {
+    cursor: progress;
+    transform: translateY(4px);
+}
+/*****Mobile Responsive****/
+@media only screen and (max-width: 1200px)
+{
+    * {
+        box-sizing: border-box;
+    }
+   .landing-main-content {
+    padding: 80px;
+   }
+   .landing-menuWrapper {
+    width: 100%;
+   }
+}
